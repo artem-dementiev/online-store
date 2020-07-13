@@ -1,0 +1,49 @@
+.cart {
+    width: 250px;
+    height: 340px;
+    border: 1px solid black;
+    margin: 30px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.cart .name {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+.cart .cost {
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+.cart .add-to-cart {
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.cart .add-to-cart:hover {
+    background: blue;
+}
+.cart .add-to-cart:active {
+    background: red;
+}
+
+.goods-out {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-cart{
+    width:48px;
+}
+
+/*style for cart.php*/
+
+/*style for header.php*/
